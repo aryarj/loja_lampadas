@@ -20,7 +20,7 @@
 					$teste = mysqli_query($conexao,"SELECT * from cpf where cpf='".$_SESSION["cpf"]."'");
 					if (mysqli_num_rows($teste)>0){
 						echo ("<script>alert('Cliente já cadastrado!');</script>");
-						echo ("<script>location.href='index.php';</script>");
+						echo ("<script>location.href='cadastrar_cpf.php';</script>");
 						mysqli_close($conexao);
 						
 					}

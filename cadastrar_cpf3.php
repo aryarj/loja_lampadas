@@ -178,8 +178,7 @@
   </div>
 </div>
 
-<hr><br>
-
+<div align=center>
 <?php
 	                 // Se topdas as informações obrigatórias foram colocadas
                      if($cpf!='sem informação' && $nome!='sem informação' && $sobrenome!='sem informação' &&
@@ -216,8 +215,8 @@
 					}
                     
                     ?> 
-
-
+</div>
+<hr><br>
 
 
     <!-- JavaScript (Opcional) -->
